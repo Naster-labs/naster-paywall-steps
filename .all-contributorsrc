@@ -1,0 +1,11 @@
+{
+  "projectName": "naster-paywall-steps",
+  "projectOwner": "naster-labs",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md", "AUTHORS"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "conventionalcommits",
+  "contributors": []
+}

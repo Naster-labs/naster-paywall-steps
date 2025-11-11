@@ -1,0 +1,25 @@
+# Luczak Consulting P.S.A. Notice
+
+This product includes software developed by:
+
+- Luczak Consulting P.S.A.
+  Registered in Poland (KRS: 0001056148, NIP: 7282876645, REGON: 526277912)
+  https://luczak.consulting
+
+- Łukasz Piotr Łuczak
+  https://lukasz.luczak.org
+
+Licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+
+## Third-Party Licenses
+
+This distribution may include open-source components licensed under separate terms.
+Third-party license information can be found in:
+
+- `NOTICE-3RD-PARTY.txt`
+- `third_party_licenses/`
+
+## Trademark & Brand Notice
+
+The names “Luczak Consulting”, company trademarks, logos, and brand identity
+are NOT licensed under the MIT License and may not be used without prior permission.

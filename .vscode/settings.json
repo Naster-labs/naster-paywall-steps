@@ -1,0 +1,75 @@
+{
+  // Format & lint
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  // Prettier as the default formatter (if installed)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ESLint – common languages ​​in the project
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "astro",
+    "json",
+    "markdown"
+  ],
+
+  "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+
+  // Tailwind – support for classes in Astro/TSX files
+  "tailwindCSS.includeLanguages": {
+    "astro": "html",
+    "typescript": "javascript",
+
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)(?:'|\"|`)"],
+    ["cva\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)(?:'|\"|`)"]
+  ],
+
+  // TypeScript – prefer local TS (with node_modules)
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  // Markdown – convenient for README and step documentation
+  "markdown.preview.breaks": true,
+  "markdown.preview.doubleClickToSwitchToEditor": true,
+  "markdown.extension.toc.levels": "2..4",
+
+  // Performance – don't index node_modules and builds at every step
+  "files.watcherExclude": {
+    "**/steps/**/node_modules/**": true,
+    "**/steps/**/dist/**": true,
+    "**/steps/**/build/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.turbo": true,
+    "**/.next": true,
+    "**/.astro": true,
+    "**/steps/**/node_modules": true,
+    "**/steps/**/dist": true,
+    "**/steps/**/build": true
+  },
+
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "bash",
+
+  // Git
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // Astro
+  "astro.telemetry.enabled": false
+}

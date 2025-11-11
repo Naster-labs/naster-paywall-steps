@@ -1,0 +1,28 @@
+Third-Party Licenses (auto-generated summary)
+=============================================
+
+This product bundles third-party open-source components.
+For full texts see `third_party_licenses/` and package metadata.
+
+License Families Summary
+------------------------
+(MIT AND CC-BY-3.0): 1
+Apache-2.0: 2
+BlueOak-1.0.0: 5
+BSD-2-Clause: 1
+BSD-3-Clause: 1
+CC-BY-3.0: 1
+CC0-1.0: 1
+ISC: 27
+MIT: 54
+
+Attribution Notes
+-----------------
+- CC-BY-3.0 / CC-BY-4.0: attribution is required (author/name, source/URL, license).
+- (MIT AND CC-BY-3.0): both MIT terms and CC-BY attribution apply.
+- (MIT OR CC0-1.0): we elect to use [CHOOSE: CC0-1.0 or MIT] for compliance simplicity.
+- LGPL-3.0-or-later: used as a library; no static linking; no code modifications redistributed.
+- Custom (Astro docs): see `third_party_licenses/astro-<pkg>-LICENSE.txt` and follow its terms.
+- UNLICENSED: development-only; not redistributed in end-user artifacts.
+
+No trademark rights are granted under this notice.

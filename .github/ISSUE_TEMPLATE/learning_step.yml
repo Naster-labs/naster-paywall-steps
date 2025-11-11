@@ -1,0 +1,14 @@
+name: 📚 Learning step feedback / request
+description: Suggest or ask about a learning step
+labels: ['learning']
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea / question
+      placeholder: What should be improved or added?
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is this valuable for learners?

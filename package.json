@@ -1,0 +1,55 @@
+{
+  "name": "@naster-labs/naster-paywall-steps",
+  "private": true,
+  "type": "module",
+  "description": "A step-by-step educational PoC showing how to integrate Astro, Starlight, and NestJS with a paywall system.",
+  "license": "MIT",
+  "author": "Łukasz Piotr Łuczak <lukasz@luczak.consulting>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naster-labs/naster-paywall-steps.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf ./steps/**/dist --glob",
+    "licenses:scan": "npx license-checker --json --relativeLicensePath > third_party_licenses/dependencies.json",
+    "licenses:post": "node tools/generate-licenses.cjs all",
+    "licenses:generate": "tools/generate-licenses.sh",
+    "licenses:list": "npx license-checker --production",
+    "refresh": "rm -f .yarn/install-state.gz && yarn install",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit $GIT_PARAMS"
+  },
+  "workspaces": [
+    "steps/**"
+  ],
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "**/*.{js,jsx,astro,css,scss,md,json,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "yarn@4.10.2",
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "license-checker": "^25.0.1",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "rimraf": "^6.1.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4"
+  }
+}

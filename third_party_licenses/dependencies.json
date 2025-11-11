@@ -1,0 +1,779 @@
+{
+  "@isaacs/balanced-match@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/balanced-match",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/@isaacs/balanced-match",
+    "licenseFile": "node_modules/@isaacs/balanced-match/LICENSE.md"
+  },
+  "@isaacs/brace-expansion@5.0.0": {
+    "licenses": "MIT",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/@isaacs/brace-expansion",
+    "licenseFile": "node_modules/@isaacs/brace-expansion/LICENSE"
+  },
+  "@isaacs/cliui@8.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/@isaacs/cliui",
+    "licenseFile": "node_modules/@isaacs/cliui/LICENSE.txt"
+  },
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/abbrev",
+    "licenseFile": "node_modules/abbrev/LICENSE"
+  },
+  "ansi-regex@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/ansi-regex",
+    "licenseFile": "node_modules/ansi-regex/license"
+  },
+  "ansi-regex@6.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/strip-ansi/node_modules/ansi-regex",
+    "licenseFile": "node_modules/strip-ansi/node_modules/ansi-regex/license"
+  },
+  "ansi-styles@3.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/ansi-styles",
+    "licenseFile": "node_modules/ansi-styles/license"
+  },
+  "ansi-styles@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi-cjs/node_modules/ansi-styles",
+    "licenseFile": "node_modules/wrap-ansi-cjs/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@6.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi/node_modules/ansi-styles",
+    "licenseFile": "node_modules/wrap-ansi/node_modules/ansi-styles/license"
+  },
+  "array-find-index@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/array-find-index",
+    "licenseFile": "node_modules/array-find-index/license"
+  },
+  "asap@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kriskowal/asap",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/asap",
+    "licenseFile": "node_modules/asap/LICENSE.md"
+  },
+  "balanced-match@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/balanced-match",
+    "licenseFile": "node_modules/balanced-match/LICENSE.md"
+  },
+  "brace-expansion@1.1.12": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/brace-expansion",
+    "licenseFile": "node_modules/brace-expansion/LICENSE"
+  },
+  "chalk@2.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/chalk",
+    "licenseFile": "node_modules/chalk/license"
+  },
+  "color-convert@1.9.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/color-convert",
+    "licenseFile": "node_modules/color-convert/LICENSE"
+  },
+  "color-convert@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi-cjs/node_modules/color-convert",
+    "licenseFile": "node_modules/wrap-ansi-cjs/node_modules/color-convert/LICENSE"
+  },
+  "color-name@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/color-name",
+    "licenseFile": "node_modules/color-name/LICENSE"
+  },
+  "color-name@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi-cjs/node_modules/color-name",
+    "licenseFile": "node_modules/wrap-ansi-cjs/node_modules/color-name/LICENSE"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/concat-map",
+    "licenseFile": "node_modules/concat-map/LICENSE"
+  },
+  "cross-spawn@7.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/moxystudio/node-cross-spawn",
+    "publisher": "André Cruz",
+    "email": "andre@moxy.studio",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/cross-spawn",
+    "licenseFile": "node_modules/cross-spawn/LICENSE"
+  },
+  "debug@3.2.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/debug",
+    "licenseFile": "node_modules/debug/LICENSE"
+  },
+  "debuglog@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sam-github/node-debuglog",
+    "publisher": "Sam Roberts",
+    "email": "sam@strongloop.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/debuglog",
+    "licenseFile": "node_modules/debuglog/LICENSE"
+  },
+  "dezalgo@1.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/dezalgo",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/dezalgo",
+    "licenseFile": "node_modules/dezalgo/LICENSE"
+  },
+  "eastasianwidth@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/komagata/eastasianwidth",
+    "publisher": "Masaki Komagata",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/eastasianwidth",
+    "licenseFile": "node_modules/eastasianwidth/README.md"
+  },
+  "emoji-regex@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/emoji-regex",
+    "licenseFile": "node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "emoji-regex@9.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/string-width/node_modules/emoji-regex",
+    "licenseFile": "node_modules/string-width/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "escape-string-regexp@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/escape-string-regexp",
+    "licenseFile": "node_modules/escape-string-regexp/license"
+  },
+  "foreground-child@3.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/foreground-child",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/foreground-child",
+    "licenseFile": "node_modules/foreground-child/LICENSE"
+  },
+  "fs.realpath@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/fs.realpath",
+    "licenseFile": "node_modules/fs.realpath/LICENSE"
+  },
+  "function-bind@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Raynos/function-bind",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/function-bind",
+    "licenseFile": "node_modules/function-bind/LICENSE"
+  },
+  "glob@11.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/rimraf/node_modules/glob",
+    "licenseFile": "node_modules/rimraf/node_modules/glob/LICENSE"
+  },
+  "glob@7.2.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/glob",
+    "licenseFile": "node_modules/glob/LICENSE"
+  },
+  "graceful-fs@4.2.11": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/graceful-fs",
+    "licenseFile": "node_modules/graceful-fs/LICENSE"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/has-flag",
+    "licenseFile": "node_modules/has-flag/license"
+  },
+  "hasown@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/hasOwn",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/hasown",
+    "licenseFile": "node_modules/hasown/LICENSE"
+  },
+  "hosted-git-info@2.8.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/hosted-git-info",
+    "licenseFile": "node_modules/hosted-git-info/LICENSE"
+  },
+  "inflight@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/inflight",
+    "licenseFile": "node_modules/inflight/LICENSE"
+  },
+  "inherits@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/inherits",
+    "licenseFile": "node_modules/inherits/LICENSE"
+  },
+  "is-core-module@2.16.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-core-module",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/is-core-module",
+    "licenseFile": "node_modules/is-core-module/LICENSE"
+  },
+  "is-fullwidth-code-point@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/is-fullwidth-code-point",
+    "licenseFile": "node_modules/is-fullwidth-code-point/license"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/isexe",
+    "licenseFile": "node_modules/isexe/LICENSE"
+  },
+  "jackspeak@4.1.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/jackspeak",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/jackspeak",
+    "licenseFile": "node_modules/jackspeak/LICENSE.md"
+  },
+  "json-parse-even-better-errors@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/npm/json-parse-even-better-errors",
+    "publisher": "Kat Marchán",
+    "email": "kzm@zkat.tech",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/json-parse-even-better-errors",
+    "licenseFile": "node_modules/json-parse-even-better-errors/LICENSE.md"
+  },
+  "license-checker@25.0.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/davglass/license-checker",
+    "publisher": "Dav Glass",
+    "email": "davglass@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/license-checker",
+    "licenseFile": "node_modules/license-checker/LICENSE"
+  },
+  "lru-cache@11.2.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/lru-cache",
+    "licenseFile": "node_modules/lru-cache/LICENSE"
+  },
+  "minimatch@10.1.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/rimraf/node_modules/minimatch",
+    "licenseFile": "node_modules/rimraf/node_modules/minimatch/LICENSE.md"
+  },
+  "minimatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/minimatch",
+    "licenseFile": "node_modules/minimatch/LICENSE"
+  },
+  "minimist@1.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/minimistjs/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/minimist",
+    "licenseFile": "node_modules/minimist/LICENSE"
+  },
+  "minipass@7.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/minipass",
+    "licenseFile": "node_modules/minipass/LICENSE"
+  },
+  "mkdirp@0.5.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-mkdirp",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/mkdirp",
+    "licenseFile": "node_modules/mkdirp/LICENSE"
+  },
+  "ms@2.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/ms",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/ms",
+    "licenseFile": "node_modules/ms/license.md"
+  },
+  "nopt@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/nopt",
+    "licenseFile": "node_modules/nopt/LICENSE"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/normalize-package-data",
+    "licenseFile": "node_modules/normalize-package-data/LICENSE"
+  },
+  "npm-normalize-package-bin@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-normalize-package-bin",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/npm-normalize-package-bin",
+    "licenseFile": "node_modules/npm-normalize-package-bin/LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/once",
+    "licenseFile": "node_modules/once/LICENSE"
+  },
+  "os-homedir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/os-homedir",
+    "licenseFile": "node_modules/os-homedir/license"
+  },
+  "os-tmpdir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/os-tmpdir",
+    "licenseFile": "node_modules/os-tmpdir/license"
+  },
+  "osenv@0.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/osenv",
+    "licenseFile": "node_modules/osenv/LICENSE"
+  },
+  "package-json-from-dist@1.0.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/package-json-from-dist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/package-json-from-dist",
+    "licenseFile": "node_modules/package-json-from-dist/LICENSE.md"
+  },
+  "path-is-absolute@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/path-is-absolute",
+    "licenseFile": "node_modules/path-is-absolute/license"
+  },
+  "path-key@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-key",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/path-key",
+    "licenseFile": "node_modules/path-key/license"
+  },
+  "path-parse@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/path-parse",
+    "licenseFile": "node_modules/path-parse/LICENSE"
+  },
+  "path-scurry@2.0.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/path-scurry",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/path-scurry",
+    "licenseFile": "node_modules/path-scurry/LICENSE.md"
+  },
+  "read-installed@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/read-installed",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/read-installed",
+    "licenseFile": "node_modules/read-installed/LICENSE"
+  },
+  "read-package-json@2.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/read-package-json",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/read-package-json",
+    "licenseFile": "node_modules/read-package-json/LICENSE"
+  },
+  "readdir-scoped-modules@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/readdir-scoped-modules",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/readdir-scoped-modules",
+    "licenseFile": "node_modules/readdir-scoped-modules/LICENSE"
+  },
+  "resolve@1.22.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/resolve",
+    "licenseFile": "node_modules/resolve/LICENSE"
+  },
+  "rimraf@6.1.0": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/rimraf",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/rimraf",
+    "licenseFile": "node_modules/rimraf/LICENSE.md"
+  },
+  "semver@5.7.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/semver",
+    "licenseFile": "node_modules/semver/LICENSE"
+  },
+  "shebang-command@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/shebang-command",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/shebang-command",
+    "licenseFile": "node_modules/shebang-command/license"
+  },
+  "shebang-regex@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/shebang-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/shebang-regex",
+    "licenseFile": "node_modules/shebang-regex/license"
+  },
+  "signal-exit@4.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/signal-exit",
+    "licenseFile": "node_modules/signal-exit/LICENSE.txt"
+  },
+  "slide@1.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/slide-flow-control",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/slide",
+    "licenseFile": "node_modules/slide/LICENSE"
+  },
+  "spdx-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-compare",
+    "licenseFile": "node_modules/spdx-compare/LICENSE.md"
+  },
+  "spdx-correct@3.2.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-correct",
+    "licenseFile": "node_modules/spdx-correct/LICENSE"
+  },
+  "spdx-exceptions@2.5.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-exceptions",
+    "licenseFile": "node_modules/spdx-exceptions/README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-expression-parse",
+    "licenseFile": "node_modules/spdx-expression-parse/LICENSE"
+  },
+  "spdx-license-ids@3.0.22": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-license-ids",
+    "licenseFile": "node_modules/spdx-license-ids/README.md"
+  },
+  "spdx-ranges@2.1.1": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-ranges",
+    "licenseFile": "node_modules/spdx-ranges/LICENSE.md"
+  },
+  "spdx-satisfies@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/spdx-satisfies",
+    "licenseFile": "node_modules/spdx-satisfies/LICENSE"
+  },
+  "string-width@4.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/string-width-cjs",
+    "licenseFile": "node_modules/string-width-cjs/license"
+  },
+  "string-width@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/string-width",
+    "licenseFile": "node_modules/string-width/license"
+  },
+  "strip-ansi@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/string-width-cjs/node_modules/strip-ansi",
+    "licenseFile": "node_modules/string-width-cjs/node_modules/strip-ansi/license"
+  },
+  "strip-ansi@7.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/strip-ansi",
+    "licenseFile": "node_modules/strip-ansi/license"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/supports-color",
+    "licenseFile": "node_modules/supports-color/license"
+  },
+  "supports-preserve-symlinks-flag@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/supports-preserve-symlinks-flag",
+    "licenseFile": "node_modules/supports-preserve-symlinks-flag/LICENSE"
+  },
+  "treeify@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/notatestuser/treeify",
+    "publisher": "Luke Plaster",
+    "email": "notatestuser@gmail.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/treeify",
+    "licenseFile": "node_modules/treeify/LICENSE"
+  },
+  "util-extend@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/util-extend",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/util-extend",
+    "licenseFile": "node_modules/util-extend/LICENSE"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/validate-npm-package-license",
+    "licenseFile": "node_modules/validate-npm-package-license/LICENSE"
+  },
+  "which@2.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/which",
+    "licenseFile": "node_modules/which/LICENSE"
+  },
+  "wrap-ansi@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi-cjs",
+    "licenseFile": "node_modules/wrap-ansi-cjs/license"
+  },
+  "wrap-ansi@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrap-ansi",
+    "licenseFile": "node_modules/wrap-ansi/license"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/lluczak/pocs/nestjs-astro-starlight/node_modules/wrappy",
+    "licenseFile": "node_modules/wrappy/LICENSE"
+  }
+}

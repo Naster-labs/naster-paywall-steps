@@ -1,0 +1,23 @@
+docs:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.md', 'docs/**']
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ['.github/**']
+
+tooling:
+  - changed-files:
+      - any-glob-to-any-file: ['tools/**', '**/*eslint*', '**/*prettier*', '.editorconfig']
+
+steps:
+  - changed-files:
+      - any-glob-to-any-file: ['steps/**']
+
+astro:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.astro', '**/astro.config.*']
+
+nest:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.ts', '**/nest*', '**/nestjs*', '**/main.ts']

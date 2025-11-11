@@ -1,0 +1,102 @@
+name: PR Checks (Hybrid)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, edited]
+  push:
+    branches: [main]
+
+concurrency:
+  group: pr-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  setup:
+    name: Toolchain Setup
+    runs-on: ubuntu-latest
+    outputs:
+      node: ${{ steps.node.outputs.node }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        id: node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable Corepack & pin Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.10.2 --activate
+          yarn --version
+
+      - name: Cache Yarn (.yarn/cache)
+        uses: actions/cache@v4
+        with:
+          path: |
+            .yarn/cache
+            .yarn/install-state.gz
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}-4.10.2
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install
+        run: yarn install --immutable
+
+  lint_format:
+    name: Lint & Format
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enable Corepack & pin Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.10.2 --activate
+      - name: Install (no-op if restored)
+        run: yarn install --immutable
+      - name: ESLint
+        run: yarn lint
+      - name: Prettier (check)
+        run: yarn check-format
+
+  spdx_check:
+    name: SPDX Headers
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: SPDX header check
+        run: bash tools/check-spdx.sh
+
+  license_policy:
+    name: License Policy
+    needs: setup
+    runs-on: ubuntu-latest
+    env:
+      DISALLOWED_LICENSES: >
+        GPL-3.0-only GPL-3.0-or-later AGPL-3.0-only AGPL-3.0-or-later
+        LGPL-3.0-only LGPL-3.0-or-later SSPL-1.0 BUSL-1.1
+    steps:
+      - uses: actions/checkout@v4
+      - name: License audit (summary)
+        run: npx license-checker --summary
+      - name: License policy check
+        run: |
+          npx license-checker --json --relativeLicensePath > third_party_licenses/dependencies.json
+          node tools/check-licenses.cjs "${DISALLOWED_LICENSES}"
+
+  semantic_pr:
+    name: Conventional PR Title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: >
+            build,chore,ci,docs,feat,fix,perf,refactor,revert,style,test
+          requireScope: false
+          ignoreLabels: |
+            skip-semantic

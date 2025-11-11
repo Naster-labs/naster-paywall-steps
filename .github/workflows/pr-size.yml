@@ -1,0 +1,21 @@
+name: PR Size Labels
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  size:
+    permissions:
+      pull-requests: write
+      contents: read
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codelytv/pr-size-labeler@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          xs_max_size: '20'
+          s_max_size: '100'
+          m_max_size: '300'
+          l_max_size: '600'
+          exclude_files: 'package-lock.json yarn.lock .yarn/**'

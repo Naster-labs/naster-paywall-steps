@@ -1,0 +1,19 @@
+# CODEOWNERS
+# Format: pattern owners
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# Default everything
+
+- @lukaszpiotrluczak @naster-labs/maintainers
+
+# Readme & licenses (optional, only you)
+
+README.md @lukaszpiotrluczak
+LICENSE @lukaszpiotrluczak
+NOTICE @lukaszpiotrluczak
+NOTICE-3RD-PARTY.txt @lukaszpiotrluczak
+third_party_licenses/* @lukaszpiotrluczak
+
+# Step directories – still the default owners, but you can add maintainers per area:
+
+steps/** @lukaszpiotrluczak @naster-labs/maintainers
+
