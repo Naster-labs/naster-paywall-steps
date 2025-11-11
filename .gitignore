@@ -1,0 +1,37 @@
+### Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+node_modules
+.pnp.*
+.pnp.loader.mjs
+.yarn/install-state.gz
+
+### Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+### Output
+dist
+build
+
+### Env
+.env
+.env.*
+!.env.example
+
+### Editor files
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/naster-spdx.code-snippets

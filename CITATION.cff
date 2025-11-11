@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: 'Naster Paywall Steps'
+message: 'If you use this repository, please cite it as follows:'
+type: software
+authors:
+  - family-names: Łuczak
+    given-names: Łukasz Piotr
+    orcid: 'https://orcid.org/0000-0003-0892-7276'
+affiliation: 'Luczak Consulting P.S.A.'
+repository-code: 'https://github.com/naster-labs/naster-paywall-steps'
+license: MIT
+abstract: >
+  A step-by-step educational PoC that demonstrates how to integrate Astro, Starlight,
+  and NestJS with a paywall. Each step is a complete working snapshot.
+keywords:
+  - astro
+  - starlight
+  - nestjs
+  - paywall
+  - tutorial
+  - education
+version: '0.1.0'
+date-released: '2025-11-11'

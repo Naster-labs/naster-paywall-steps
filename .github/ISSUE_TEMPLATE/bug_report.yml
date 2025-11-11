@@ -1,0 +1,36 @@
+name: 🐛 Bug Report
+description: Report something that does not work as expected
+labels: ['bug']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: >
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: input
+    id: step
+    attributes:
+      label: Affected learning step
+      placeholder: e.g., 01-nestjs-astro-middleware
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Environment
+      options:
+        - macOS
+        - Linux
+        - Windows WSL2

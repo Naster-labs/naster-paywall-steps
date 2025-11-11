@@ -1,0 +1,39 @@
+{
+  // SPDX for JS/TS/Astro
+  "SPDX MIT Header (JS/TS/Astro)": {
+    "prefix": "spdx",
+    "scope": "typescript,javascript,astro",
+    "body": ["/**", " * SPDX-License-Identifier: MIT", " */", ""],
+    "description": "Insert SPDX MIT header for JS/TS/Astro",
+  },
+
+  // SPDX with copyright & year
+  "SPDX MIT Header Extended": {
+    "prefix": "spdxc",
+    "scope": "typescript,javascript,astro",
+    "body": [
+      "/**",
+      " * SPDX-License-Identifier: MIT",
+      " * © ${CURRENT_YEAR} ${1:Łukasz Piotr Łuczak}",
+      " */",
+      "",
+    ],
+    "description": "Insert SPDX header with copyright + year",
+  },
+
+  // SPDX for Markdown
+  "SPDX MIT Header (Markdown)": {
+    "prefix": "spdxmd",
+    "scope": "markdown",
+    "body": ["<!-- SPDX-License-Identifier: MIT -->", ""],
+    "description": "Insert SPDX MIT header for Markdown files",
+  },
+
+  // SPDX for shell files, Dockerfile, envs, config etc.
+  "SPDX MIT Header (Shell/Config)": {
+    "prefix": "spdxsh",
+    "scope": "shellscript,dockerfile,properties,makefile",
+    "body": ["# SPDX-License-Identifier: MIT", ""],
+    "description": "Insert SPDX MIT header for shell/script/config files",
+  },
+}

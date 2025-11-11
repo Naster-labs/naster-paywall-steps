@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      NODE_VERSION: '22'
+      DISALLOWED_LICENSES: >
+        GPL-3.0-only GPL-3.0-or-later AGPL-3.0-only AGPL-3.0-or-later
+        LGPL-3.0-only LGPL-3.0-or-later SSPL-1.0 BUSL-1.1
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          # ⛔️ Usuń cache: 'yarn' — to uruchamia Yarn 1 zanim włączysz Corepack
+
+      - name: Enable Corepack & pin Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.10.2 --activate
+          yarn --version
+
+      - name: Cache Yarn (.yarn/cache)
+        uses: actions/cache@v4
+        with:
+          path: |
+            .yarn/cache
+            .yarn/install-state.gz
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}-4.10.2
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install
+        run: yarn install --immutable
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Check formatting
+        run: yarn check-format
+
+      - name: SPDX header check
+        run: bash tools/check-spdx.sh
+
+      - name: License audit (summary)
+        run: npx license-checker --summary
+
+      - name: License policy check (disallow certain licenses)
+        run: |
+          npx license-checker --json --relativeLicensePath > third_party_licenses/dependencies.json
+          node tools/check-licenses.cjs "${DISALLOWED_LICENSES}"
